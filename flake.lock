@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "lab": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1790698385,
+        "narHash": "sha256-QsrXUnFgX1vHP03NP+uLnjZeGeKVIuj+ObAeN7WL1kU=",
+        "owner": "LightconeResearch",
+        "repo": "jupyterlab-lightcone",
+        "rev": "98f01f8fcafe6a43a5e6958521d9fbb962518224",
+        "type": "github"
+      },
+      "original": {
+        "owner": "LightconeResearch",
+        "repo": "jupyterlab-lightcone",
+        "type": "github"
+      }
+    },
+    "lightcone": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1791376746,
+        "narHash": "sha256-iyssNxEUp7R/4z85MItGzyzb3PlfGlHg/s1nyq4Rwzs=",
+        "owner": "charnock-fr",
+        "repo": "lightcone-cli",
+        "rev": "ddaf46e15e47a2d6e765556683a287f1d08d4380",
+        "type": "github"
+      },
+      "original": {
+        "owner": "charnock-fr",
+        "ref": "nix-flake",
+        "repo": "lightcone-cli",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1791336361,
+        "narHash": "sha256-o9ZUW4SlEAvFPIyJWnqChhOT/VHpHg8TAvEgmqK1fSI=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "7dd199b0e2993e37b4775ed66b1c291699608c9f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "lab": "lab",
+        "lightcone": "lightcone",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
