@@ -23,11 +23,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1791376746,
-        "narHash": "sha256-iyssNxEUp7R/4z85MItGzyzb3PlfGlHg/s1nyq4Rwzs=",
+        "lastModified": 1791380735,
+        "narHash": "sha256-2uauUnaxC8hOUoeaT5aHBpQ9tXwQwmHDOun8ZvPi2RU=",
         "owner": "charnock-fr",
         "repo": "lightcone-cli",
-        "rev": "ddaf46e15e47a2d6e765556683a287f1d08d4380",
+        "rev": "db23e14439d26291d13e2842e177d77a346bf4a7",
         "type": "github"
       },
       "original": {
